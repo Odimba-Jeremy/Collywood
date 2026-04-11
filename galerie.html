@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collywood | Galerie</title>
+    <meta name="description" content="D&eacute;couvrez les films et productions Collywood." />
+    <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="./index.html"><img class="brand-image" src="20250512_072657.jpg" alt="Logo Collywood" />COLLY<span>WOOD</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+        <div class="nav-links desktop-nav">
+          <a href="./index.html">Accueil</a>
+          <a href="./a-propos.html">&Agrave; propos</a>
+          <a href="./equipe.html">&Eacute;quipe</a>
+          <a href="./nos-visions.html">Nos visions</a>
+          <a href="./galerie.html">Galerie</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu container">
+        <a href="./index.html">Accueil</a>
+        <a href="./a-propos.html">&Agrave; propos</a>
+        <a href="./equipe.html">&Eacute;quipe</a>
+        <a href="./nos-visions.html">Nos visions</a>
+        <a href="./galerie.html">Galerie</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container narrow" data-reveal>
+          <p class="eyebrow">Nos r&eacute;alisations</p>
+          <h1><span class="text-gradient">Galerie</span> vid&eacute;o</h1>
+          <p class="hero-copy">Voici les vid&eacute;os officielles que tu m'as envoy&eacute;es, int&eacute;gr&eacute;es directement dans le site.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="cards-grid cards-grid-2">
+            <article class="card media-card" data-reveal>
+              <div class="video-frame"><iframe src="https://www.youtube.com/embed/GwAEY0wy2mQ" title="Vid&eacute;o officielle 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <h2>Vid&eacute;o officielle 01</h2>
+              <p>Premi&egrave;re vid&eacute;o mise en avant dans l'univers Collywood.</p>
+            </article>
+            <article class="card media-card" data-reveal data-delay="80">
+              <div class="video-frame"><iframe src="https://www.youtube.com/embed/hnnDlF-hJJc" title="Vid&eacute;o officielle 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <h2>Vid&eacute;o officielle 02</h2>
+              <p>Deuxi&egrave;me contenu int&eacute;gr&eacute; pour montrer les productions et l'identit&eacute; visuelle de Collywood.</p>
+            </article>
+            <article class="card media-card" data-reveal data-delay="160">
+              <div class="video-frame"><iframe src="LA FEMME INFIDÈLE.mp4" allowfullscreen></iframe></div>
+              <h2>Serie la femme infidèle</h2>
+              <p>première épisodede la serie Collywoodiene la femme infidèle</p>
+            </article>
+            <article class="card media-card" data-reveal data-delay="240">
+              <div class="video-frame"><iframe src="https://www.youtube.com/embed/-b6NduT7TU8" title="Vid&eacute;o officielle 4" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <h2>Vid&eacute;o officielle 04</h2>
+              <p>Quatri&egrave;me vid&eacute;o pr&eacute;sent&eacute;e comme un temps fort des contenus Collywood.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">COLLYWOOD</p>
+          <p>L'industrie du cin&eacute;ma moderne. Cr&eacute;er, produire, inspirer.</p>
+        </div>
+        <div>
+          <p class="footer-title">Navigation</p>
+          <div class="footer-links">
+            <a href="./index.html">Accueil</a>
+            <a href="./a-propos.html">&Agrave; propos</a>
+            <a href="./equipe.html">&Eacute;quipe</a>
+            <a href="./nos-visions.html">Nos visions</a>
+            <a href="./galerie.html">Galerie</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-title">Contact</p>
+          <div class="footer-links">
+            <span>contact@collywood.com</span>
+            <span>+243 000 000 000</span>
+            <span>Kinshasa, RDC</span>
+            <span>TikTok : @collywood</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; <span data-year></span> Collywood. Tous droits r&eacute;serv&eacute;s.</span>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

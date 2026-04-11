@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collywood | Accueil</title>
+    <meta
+      name="description"
+      content="Collywood repousse les limites de la production cin&eacute;matographique avec une vision moderne et audacieuse."
+    />
+    <link rel="icon" type="image/x-icon" href="./public/=-0.ico" />
+    <link rel="preconnect" href="20250512_072657.jpg" />
+    <link rel="preconnect" href="20250512_072657.jpg" crossorigin />
+    <link
+      href=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="./index.html"><img class="brand-image" src="20250512_072657.jpg" alt="Logo Collywood" />COLLY<span>WOOD</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          Menu
+        </button>
+        <div class="nav-links desktop-nav">
+          <a href="./index.html">Accueil</a>
+          <a href="./a-propos.html">&Agrave; propos</a>
+          <a href="./equipe.html">&Eacute;quipe</a>
+          <a href="./nos-visions.html">Nos visions</a>
+          <a href="./galerie.html">Galerie</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu container">
+        <a href="./index.html">Accueil</a>
+        <a href="./a-propos.html">&Agrave; propos</a>
+        <a href="./equipe.html">&Eacute;quipe</a>
+        <a href="./nos-visions.html">Nos visions</a>
+        <a href="./galerie.html">Galerie</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-blob blob-right"></div>
+        <div class="hero-blob blob-left"></div>
+        <div class="container hero-grid">
+          <div data-reveal>
+            <p class="eyebrow">L'industrie du cin&eacute;ma moderne</p>
+            <h1>
+              Cr&eacute;er le
+              <br />
+              <span class="text-gradient">cin&eacute;ma</span> de
+              <br />
+              demain
+            </h1>
+            <p class="hero-copy">
+              Collywood repousse les limites de la production cin&eacute;matographique avec une vision moderne et audacieuse.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="./galerie.html">D&eacute;couvrir nos films</a>
+              <a class="button button-secondary" href="./contact.html">Nous contacter</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cards-grid cards-grid-3">
+            <article class="card" data-reveal>
+              <div class="icon-badge">PR</div>
+              <h2>Production</h2>
+              <p>Des films qui racontent des histoires puissantes et authentiques.</p>
+            </article>
+            <article class="card" data-reveal data-delay="100">
+              <div class="icon-badge">IN</div>
+              <div>
+                <h2>Innovation</h2>
+                <p>Technologies modernes et techniques de pointe au service de l'art.</p>
+              </div>
+            </article>
+            <article class="card" data-reveal data-delay="200">
+              <div class="icon-badge">DI</div>
+              <div>
+                <h2>Diffusion</h2>
+                <p>Partager notre vision avec le monde entier.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-reveal>
+          <div class="cta-panel">
+            <div class="cta-glow"></div>
+            <h2>Pr&ecirc;t &agrave; cr&eacute;er avec nous ?</h2>
+            <p>
+              Rejoignez l'aventure Collywood et participez &agrave; la r&eacute;volution cin&eacute;matographique.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="./contact.html">Contactez-nous</a>
+              <a class="button button-secondary" href="./nos-visions.html">Nos visions</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="announcement-pill" type="button" data-open-announcement>Actualit&eacute;</button>
+
+    <div class="popup-backdrop" data-announcement-backdrop hidden></div>
+    <section class="announcement-popup" data-announcement-popup hidden aria-labelledby="announcement-title" aria-modal="true" role="dialog">
+      <button class="popup-close" type="button" aria-label="Fermer" data-close-announcement>&times;</button>
+      <p class="section-kicker">Actualit&eacute; Collywood</p>
+      <h2 id="announcement-title">Projection officielle et nouvelles sorties</h2>
+      <p class="popup-date">Mise &agrave; jour du moment</p>
+      <p>
+        Les annonces se font d&eacute;sormais directement ici. Suivez nos nouvelles projections, nos sorties vid&eacute;o et les prochains temps forts de Collywood sans quitter l'accueil.
+      </p>
+      <div class="popup-actions">
+        <a class="button button-primary" href="./galerie.html">Voir les vid&eacute;os</a>
+        <a class="button button-secondary" href="./contact.html">Nous contacter</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">COLLYWOOD</p>
+          <p>L'industrie du cin&eacute;ma moderne. Cr&eacute;er, produire, inspirer.</p>
+        </div>
+        <div>
+          <p class="footer-title">Navigation</p>
+          <div class="footer-links">
+            <a href="./index.html">Accueil</a>
+            <a href="./a-propos.html">&Agrave; propos</a>
+            <a href="./equipe.html">&Eacute;quipe</a>
+            <a href="./nos-visions.html">Nos visions</a>
+            <a href="./galerie.html">Galerie</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-title">Contact</p>
+          <div class="footer-links">
+            <span>contact@collywood.com</span>
+            <span>+243 974 336 700</span>
+            <span>lubumbashi, RDC</span>
+            <span>TikTok : @collywood</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; <span data-year></span> Collywood. Tous droits r&eacute;serv&eacute;s.</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
